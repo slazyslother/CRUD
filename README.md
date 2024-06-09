@@ -20,8 +20,7 @@ This project involves developing a RESTful API for a simple e-commerce applicati
 
 <br/>
 
-
-- ## API Reference
+## API Reference
 
 #### __Create Product Endpoint__: Creates a new product in the system.
 
