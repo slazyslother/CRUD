@@ -1,6 +1,6 @@
 # E-commerce Application API
 
-This project involves developing a RESTful API for a simple e-commerce application using C++. The API includes basic CRUD operations for managing products. The API is designed to be consumed by a frontend application using Axios or the Fetch API.
+This project involves developing a RESTful API for a simple e-commerce application . The API includes basic CRUD operations for managing products. The API is designed to be consumed by a frontend application using Axios or the Fetch API.
 
 <br/>
 
