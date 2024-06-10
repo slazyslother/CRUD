@@ -33,7 +33,7 @@ POST /api/products
 | `name`| `string` | **Required**. The name of the product.|
 | `description`| `string` | **Optional**. A description of the product.|        
 | `price`| `float` | **Required**. The price of the product.|
-| `stock`| `int` | **Required**. The stock quantity of the product.|
+| `stock`| `integer` | **Required**. The stock quantity of the product.|
 
 #### __Get All Products Endpoint__: Retrieves a list of all products.
 
@@ -53,7 +53,7 @@ GET /api/products/{id}
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `id`| `int` | **Required**. The ID of the product.|
+| `id`| `integer` | **Required**. The ID of the product.|
 
 
 #### __Update Product Endpoint__: Updates the details of a specific product.
@@ -64,11 +64,11 @@ PUT /api/products/{id}
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `id`| `int` | **Required**. The ID of the product.|
+| `id`| `integer` | **Required**. The ID of the product.|
 | `name`| `string` | **Optional**. The name of the product.|
 | `description`| `string` | **Optional**. A description of the product.|        
 | `price`| `float` | **Optional**. The price of the product.|
-| `stock`| `int` | **Optional**. The stock quantity of the product.|
+| `stock`| `integer` | **Optional**. The stock quantity of the product.|
 
 
 #### __Delete Product Endpoint__: Deletes a specific product from the system.
@@ -79,7 +79,7 @@ DELETE /api/products/{id}
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `id`| `int` | **Required**. The ID of the product.|
+| `id`| `integer` | **Required**. The ID of the product.|
 
 <br/>
 
